@@ -406,6 +406,9 @@ header{
   #section-dark2{
     padding: 50px 0;
   }
+  .container-form{
+    width: 95%;
+  }
   #section2 #boxed{
     max-width: 90%;
   }
