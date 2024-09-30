@@ -149,9 +149,12 @@ p{
 }
 
 
-.section-dark2 {
+#section-dark2 {
+  padding: 100px 0;
   width: 100%; 
   height: auto;
+  background: black;
+  color: white;
 }
 /* .section-dark2 h2 {
   text-align: center;
@@ -394,11 +397,14 @@ header{
     font-size: 1rem;
     text-wrap: balance;
   }
-  #section-dark #boxed{
+  #section-dark,#section-dark2 #boxed{
     max-width: 90%;
   }
   #section-dark{
     padding: 50px 0px 50px 35px;
+  }
+  #section-dark2{
+    padding: 50px 0;
   }
   #section2 #boxed{
     max-width: 90%;
